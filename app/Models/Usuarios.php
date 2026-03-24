@@ -10,7 +10,7 @@
 
     #de preferencia usar palabras neutras porque si no luego se complica ver o entenderlo, no es fisica 
     protected $allowedFields = ['usuario', 'password', 'rol'];
-
+# purbea git
     //recopila o manda a llamar los datos de la BD de mi tabla, y los guarda en $usuario
         public function obtenerUsuario($data){
 

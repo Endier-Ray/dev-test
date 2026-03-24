@@ -248,7 +248,7 @@
         color: var(--color-placeholder);
         font-style: italic;
         }
-        
+        /*modificacion visible ne git?*/
     select{
         color: var(--color-accent);
         font-size:var(--size-text-base);
