@@ -1,0 +1,426 @@
+ERROR - 2026-03-19 09:51:54 --> Unknown table 'login.blog'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `blog`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `blog`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `blog`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `blog`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('blog')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 09:52:42 --> Unknown table 'login.usuarios'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `usuarios`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usuarios`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usuarios`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usuarios`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 09:54:05 --> Unknown table 'login.t_usuarios'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `t_usuarios`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `t_usuarios`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `t_usuarios`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `t_usuarios`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('t_usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 09:54:59 --> Unknown table 'login.t_usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `t_usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `t_usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `t_usuario`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `t_usuario`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('t_usuario')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 12:19:46 --> Unknown table 'login.t_usuarios'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `t_usuarios`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `t_usuarios`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `t_usuarios`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `t_usuarios`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('t_usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 12:20:32 --> Unknown table 'login.t_usuarios'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DROP TABLE `t_usuarios`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `t_usuarios`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `t_usuarios`')
+ 4 SYSTEMPATH\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `t_usuarios`')
+ 5 APPPATH\Database\Migrations\2026-03-19-151719_TUsuarios.php(46): CodeIgniter\Database\Forge->dropTable('t_usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->down()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(323): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\MigrateRollback.php(105): CodeIgniter\Database\MigrationRunner->regress(0)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRollback::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\MigrateRollback.php(104): CodeIgniter\Commands\Database\MigrateRollback->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollback', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(90): CodeIgniter\CLI\BaseCommand->call('migrate:rollback', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 12:43:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\codeigniter4\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\xampp\htdocs\codeigniter4\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\xampp\htdocs\codeigniter4\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\xampp\htdocs\codeigniter4\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\xampp\htdocs\codeigniter4\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\xampp\htdocs\codeigniter4\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\codeigniter4\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\xampp\htdocs\codeigniter4\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\codeigniter4\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\codeigniter4\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\codeigniter4\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\codeigniter4\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-03-19 12:43:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\codeigniter4\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\xampp\htdocs\codeigniter4\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\xampp\htdocs\codeigniter4\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\xampp\htdocs\codeigniter4\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\xampp\htdocs\codeigniter4\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\xampp\htdocs\codeigniter4\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\codeigniter4\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\codeigniter4\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\xampp\htdocs\codeigniter4\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\xampp\htdocs\codeigniter4\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\codeigniter4\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\codeigniter4\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\codeigniter4\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\codeigniter4\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-03-19 12:43:58 --> Table 't_usuarios' already exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-03-19-182326_TUsuarios.php(37): CodeIgniter\Database\Forge->createTable('t_usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 12:44:14 --> Table 't_usuarios' already exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t_usuarios` (
+	`id_usuario` INT(5) UNSIGNED NOT NULL,
+	`usuario` VARCHAR(255) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`rol` VARCHAR(255) NOT NULL,
+	CONSTRAINT `pk_t_usuarios` PRIMARY KEY(`id_usuario`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-03-19-182326_TUsuarios.php(37): CodeIgniter\Database\Forge->createTable('t_usuarios')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\TUsuarios->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:01:55 --> Table 'login.t_usuario' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuario` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$TJUBeJBsgpWngPWrNbydl.9z/OtIajjLelK4QM20nkwt0lMO9Crwe\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuario` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$TJUBeJBsgpWngPWrNbydl.9z/OtIajjLelK4QM20nkwt0lMO9Crwe\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuario` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$TJUBeJBsgpWngPWrNbydl.9z/OtIajjLelK4QM20nkwt0lMO9Crwe\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuario` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:02:22 --> Unknown column 'pasword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$OptQT5Y6xGbckl5lgugi7eRJyXOGUS9lwuA.qU4rAflkA4wtbxteW\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$OptQT5Y6xGbckl5lgugi7eRJyXOGUS9lwuA.qU4rAflkA4wtbxteW\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$OptQT5Y6xGbckl5lgugi7eRJyXOGUS9lwuA.qU4rAflkA4wtbxteW\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:03:24 --> Unknown column 'pasword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$PbNEkVkuCvP4Tr33mRKfQu0RB.TdqFcf5rEQsYTXHbId.xyWzE4am\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$PbNEkVkuCvP4Tr33mRKfQu0RB.TdqFcf5rEQsYTXHbId.xyWzE4am\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$PbNEkVkuCvP4Tr33mRKfQu0RB.TdqFcf5rEQsYTXHbId.xyWzE4am\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:07:06 --> Unknown column 'pasword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$kqcodt8yesrKeru9PyCU.upIX2LcfWrGTbeUr8IGyVCLzmKai0oMu\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$kqcodt8yesrKeru9PyCU.upIX2LcfWrGTbeUr8IGyVCLzmKai0oMu\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$kqcodt8yesrKeru9PyCU.upIX2LcfWrGTbeUr8IGyVCLzmKai0oMu\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:07:50 --> Unknown column 'pasword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$RH9mLEcat2PIYzu0tE52ceWNLClh3/Mkw0VfPB9R5okxmIdx9MelC\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$RH9mLEcat2PIYzu0tE52ceWNLClh3/Mkw0VfPB9R5okxmIdx9MelC\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$RH9mLEcat2PIYzu0tE52ceWNLClh3/Mkw0VfPB9R5okxmIdx9MelC\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:10:09 --> Unknown column 'pasword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$UhGM06SN2lQl6cI2gcvU2edUeBkBK/0UuoIz3VXz9k1whrLYDNCKe\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$UhGM06SN2lQl6cI2gcvU2edUeBkBK/0UuoIz3VXz9k1whrLYDNCKe\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (\'admin\', \'$2y$10$UhGM06SN2lQl6cI2gcvU2edUeBkBK/0UuoIz3VXz9k1whrLYDNCKe\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `pasword`, `rol`) VALUES (:usuario:, :pasword:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:18:47 --> Table 'login.t_usarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usarios` (`usuario`, `password`, `rol`) VALUES (\'admin\', \'$2y$10$WHcFc3keYlQs3dIJL5nYTuNkHRDUIkprFizxnbDibMFPfKoEvIIiS\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usarios` (`usuario`, `password`, `rol`) VALUES (\'admin\', \'$2y$10$WHcFc3keYlQs3dIJL5nYTuNkHRDUIkprFizxnbDibMFPfKoEvIIiS\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usarios` (`usuario`, `password`, `rol`) VALUES (\'admin\', \'$2y$10$WHcFc3keYlQs3dIJL5nYTuNkHRDUIkprFizxnbDibMFPfKoEvIIiS\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usarios` (`usuario`, `password`, `rol`) VALUES (:usuario:, :password:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:19:47 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$5p7XflKFvJ5V5AnTRQVEReHSNTOIRWRVWTZlbUu5wZpgdQnFlvhgS\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$5p7XflKFvJ5V5AnTRQVEReHSNTOIRWRVWTZlbUu5wZpgdQnFlvhgS\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$5p7XflKFvJ5V5AnTRQVEReHSNTOIRWRVWTZlbUu5wZpgdQnFlvhgS\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (:usuario:, :password:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:20:17 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$qxYD9FFHq/UwGbFrHKKqe.wT/i/Q3hmzo.UVW5DfsxXHyukBFDhMq\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$qxYD9FFHq/UwGbFrHKKqe.wT/i/Q3hmzo.UVW5DfsxXHyukBFDhMq\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$qxYD9FFHq/UwGbFrHKKqe.wT/i/Q3hmzo.UVW5DfsxXHyukBFDhMq\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (:usuario:, :password:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-19 13:20:25 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$2lEXYwfr6iJqXD0BoDnSO.L0v4CMaC2zawLzYSgZEDdVspg5NqKHu\', \'admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$2lEXYwfr6iJqXD0BoDnSO.L0v4CMaC2zawLzYSgZEDdVspg5NqKHu\', \'admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (\'root\', \'$2y$10$2lEXYwfr6iJqXD0BoDnSO.L0v4CMaC2zawLzYSgZEDdVspg5NqKHu\', \'admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_usuarios` (`usuario`, `password`, `rol`) VALUES (:usuario:, :password:, :rol:)', [...], false)
+ 5 APPPATH\Database\Seeds\Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\Usuario->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\Usuario')
+ 8 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))

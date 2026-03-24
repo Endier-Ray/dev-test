@@ -1,0 +1,319 @@
+/*importar fuente poppyns de la nube de gugul*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+/*NOTA
+  Comentar todo mientras se hace porque después me da flojera hacerlo
+*/
+
+:root {
+/*declaraciones de variables globales*/ 
+  --color-background: #0b0e14;
+  --color-card: #161b22;
+  --color-accent: #00FF88;
+  --color-accent-hover: #0eca72;
+  --color-text-p: #F0F6FC;
+  --color-text-s: #8b949e;
+  --color-placeholder: #555;
+  --color-alerta: #FF4560;
+  
+
+  --font-fam: 'Poppins', sans-serif;
+  --font-mono: 'Arial', sans-serif;
+  --size-text-base: 1.1rem;
+  --size-text-h2: 1.2rem;
+  --size-text-small: 0.8rem;
+  
+
+  --borde-radius: 0.5rem;
+  --borde-radius-large: 24px;
+  --borde-radius-input: 8px;
+  --borde-size: 0.15rem;
+  
+
+  --transicion-suave: all 0.6s ease;
+  --shadow-accent: 0 0 15px rgba(0, 255, 136, 0.4);
+  --shadow-btn-hover: 0px 0px 8px var(--color-accent);
+}
+
+@media (max-width: 860px) {
+  :root {
+/*declaraciones de variables globales*/ 
+  --color-background: #0b0e14;
+  --color-card: #161b22;
+  --color-accent: #00FF88;
+  --color-accent-hover: #0eca72;
+  --color-text-p: #F0F6FC;
+  --color-text-s: #8b949e;
+  --color-placeholder: #555;
+  --color-alerta: #FF4560;
+  
+
+  --font-fam: 'Poppins', sans-serif;
+  --font-mono: 'Arial', sans-serif;
+  --size-text-base: 0.8rem;
+  --size-text-h2: 1.0rem;
+  --size-text-small: 0.6rem;
+  
+
+  --borde-radius: 0.5rem;
+  --borde-radius-large: 24px;
+  --borde-radius-input: 8px;
+  --borde-size: 0.15rem;
+  
+
+  --transicion-suave: all 0.6s ease;
+  --shadow-accent: 0 0 15px rgba(0, 255, 136, 0.4);
+  --shadow-btn-hover: 0px 0px 8px var(--color-accent);
+}
+}
+/*afecta todo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-fam);
+  color: var(--color-text-p);
+}
+
+      body {
+        background-color: var(--color-background);
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+      }
+
+        /*DASHBOARD*/
+.row-father {
+    display: flex; /*lo mas importante*/
+    flex-direction: row;
+    flex-wrap: wrap;        /*0para vista movil*/
+    justify-content: center; 
+    min-width: 1280px;
+    gap: 2rem;
+    padding: 3rem;
+    width: 100%;
+    min-height: 60vh;
+    align-items: flex-start; /*IMPORTANTE APRA TAMAÑOS RECUERDAALO*/
+}
+
+
+.row-1{
+    display: flex;
+    flex-direction: column;  
+    flex:auto;                
+    min-width: 150PX;       
+    max-width: 200PX;
+    
+    background-color: var(--color-accent-hover);
+    border: var(--borde-size) solid var(--color-text-p);
+    border-radius: var(--borde-radius-large);
+    padding: 1.5rem;
+    
+    transition: var(--transicion-suave);
+    position: relative;
+    overflow: hidden;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;  
+    flex:auto;                
+    min-width: 300px;       
+    max-width: 450px;
+    
+    background-color: var(--color-card);
+    border: var(--borde-size) solid var(--color-text-p);
+    border-radius: var(--borde-radius-large);
+    padding: 1.5rem;
+    
+    transition: var(--transicion-suave);
+    position: relative;
+    overflow: hidden;
+}
+.row-3 {
+    display: flex;
+    flex-direction: column;  
+    flex:auto;                
+    min-width: 200px;       
+    max-width: 250px;
+    
+    background-color: var(--color-card);
+    border: var(--borde-size) solid var(--color-text-p);
+    border-radius: var(--borde-radius-large);
+    padding: 1.5rem;
+    
+    transition: var(--transicion-suave);
+    position: relative;
+    overflow: hidden;
+}
+
+/*DASHBORAD FIN*/
+
+
+        .main-home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 0.5rem 3rem;
+        padding: 3rem;
+        
+        background-color: var(--color-card);
+        border: var(--color-accent) solid var(--borde-size);
+        border-radius: var(--borde-radius-large);
+        
+        max-height: 400px;
+        max-width: 600px;
+        min-height: 250px;
+        min-width: 400px;
+        }
+
+        .main-home div {
+        float: left;
+        }
+
+
+        .contenedor-1 img {
+        min-height: 25px;
+        min-width: 25px;
+        max-width: 50px;
+        max-height: 50px;
+        object-fit: cover;
+        filter: invert(0.5);
+        }
+
+
+        h2 {
+        font-size: var(--size-text-h2);
+        font-weight: 500;
+        }
+
+        span {
+        font-size: var(--size-text-small);
+        pointer-events: none;
+        }
+
+
+        button {
+        padding: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        background: transparent;
+        border-radius: var(--borde-radius);
+        border: var(--borde-size) var(--color-text-p) solid;
+        transition: var(--transicion-suave);
+        }
+
+        button:hover {
+        border-radius: var(--borde-radius-input);
+        color: var(--color-accent);
+        box-shadow: var(--shadow-btn-hover);
+        }
+
+
+        input[type="text"],
+        input[type="password"] {
+        width: 100%;
+        max-width: 200px;
+        padding: 12px 10px;
+        appearance: none;
+        background-color: transparent;
+        color: var(--color-accent);
+        border: 1px solid;
+        border-radius: var(--borde-radius-input);
+        font-family: var(--font-mono);
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: var(--transicion-suave);
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+        outline: none;
+        border-color: var(--color-accent);
+        box-shadow: var(--shadow-accent);
+        }
+
+        input[type="text"]:hover,
+        input[type="password"]:hover {
+        outline: none;
+        cursor: pointer;
+        border-color: var(--color-accent-hover);
+        box-shadow: var(--shadow-accent);
+        }
+
+        input[type="text"]::placeholder,
+        input[type="password"]::placeholder {
+        color: var(--color-placeholder);
+        font-style: italic;
+        }
+        
+    select{
+        color: var(--color-accent);
+        font-size:var(--size-text-base);
+        background-color: var(--color-cardS);  
+        padding:0.4rem;  
+        border-radius: var(--borde-radius-input);
+        border-color: var(--color-accent);
+    }
+
+    .btn-act{
+    border-color: yellow;
+}
+    .btn-delete:hover{
+    color: var(--color-alerta);
+    text-shadow:0px 1px 10px;
+}
+/*movil*/
+
+@media (max-width: 860px) {
+    
+    body {
+        padding: 2%; 
+    }
+
+    .row-father {
+  
+        min-width: 100%; 
+        flex-direction: column; 
+        padding: 1rem;
+        gap: 1.5rem;
+        align-items: center; 
+    }
+
+    .row-1, .row-2 {
+     
+        width: 100%;
+        max-width: 100%; 
+        min-width: 0; 
+        flex: none;
+    }
+
+    .main-home {
+       
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        height: auto;
+        max-height: none; 
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        max-width: 100%;
+        font-size: 16px; 
+    }
+
+    .main-home div {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}

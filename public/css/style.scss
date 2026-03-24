@@ -1,0 +1,25 @@
+
+body{
+    background: aqua;
+
+}
+
+*{
+    background: rgb(25, 25, 155);
+    font-family:fonts.$poppins-regular; font-weight:fonts.$poppins-weight; font-style:fonts.$poppins-style;
+    font-size:fonts.$font-size;
+}
+@media only screen and (max-width: 1180px){
+   body{
+    background: lightblue;
+   }
+    }
+
+@media only screen and (max-width: 600px){
+    
+    body{
+     background:rgb(31, 31, 151) ;   
+    }
+    
+    }
+
